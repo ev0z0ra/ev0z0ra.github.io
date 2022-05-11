@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("https://media.socastsrm.com/wordpress/wp-content/blogs.dir/1944/files/2021/10/5506441436_e4530a1749_b.jpg");
+}
+header {
+	background-color: slategrey;
+	image-orientation: center;
+	text-align: center;
+	position:relative;
+}
+
+  li {color: darkslateblue;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;  
+}
