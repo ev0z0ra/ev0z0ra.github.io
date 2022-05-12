@@ -1,20 +1,153 @@
 @charset "utf-8";
 /* CSS Document */
-body {
-	background-image: url("https://media.socastsrm.com/wordpress/wp-content/blogs.dir/1944/files/2021/10/5506441436_e4530a1749_b.jpg");
+
+head{
+	border: 0px;
+	margin: 0px;
+}
+	body {
+background-color: #4D5E98;
 }
 header {
-	background-color: slategrey;
+	background-color: #4D5E98;
 	image-orientation: center;
-	text-align: center;
-	position:relative;
+	margin-top:0px;
+
+}
+ul {
+  list-style-type: none;
+  margin-left: 70px;
+  padding: 40;
+  overflow: hidden;
+
+	margin-bottom: 0px;
 }
 
-  li {color: darkslateblue;
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 80px;  
+li {
+  float: left;
+}
+.s{
+	
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+font-size: 60px;
+	font-family:astloch;
+	margin-bottom:0px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+
+	transition: 0.2s ease;
+}
+li a.s:hover {
+  background-color: #111;
+	transition: 0.2s ease;
+	margin-top:0px;
+}
+.d {
+	dispaly:inline;
+	transition: 2s ease;
+}
+
+.a:hover{
+	padding-right: 70px;
+	transition: 1s ease;
+}
+
+.b:hover{
+	padding-left: 70px;
+	transition: 1s ease;
+	margin-right: 3px;
+}
+p{
+	color: aliceblue;
+}
+h4{
+	background-image: url("https://upload-os-bbs.mihoyo.com/upload/2021/01/07/96734061/cc6e6be58312c2d3e86d9f68cdae5955_3251679137290836734.png");
+	padding-top: 20px;
+	margin-top: 0px;
+height: 900px;
+	margin-bottom:0px;
+}
+ .card {
+        position: absolute;
+	 margin-bottom: 0px;
+	 display:inline-block;
+	 overflow-y: scroll;
+    }
+ /*  sign properties to inner
+        content of card  */
+    .card__inner {
+        background-color: rgba(0, 0, 0, 0);
+        color: #fff;
+        display: inline-block;
+        opacity: 0.2;
+        transition: all 0.4s ease 0s;
+		margin-bottom: 0px;
+		margin-top: 400px;
+		position: relative;
+    }
+.card__inner .pp{
+	opacity: 0;
+	transition: all 0.4s ease;
+	float: right;
+	position: absolute;
+	padding-left: 30px;
+	
+}
+
+ /*  On hovering card opacity
+        of content must be 1*/
+    .card:hover .card__inner {
+        opacity: 1;
+		width:500px;
+		backround-image: file("file:/###### impact website/Genshin-Impact-Traveler-2.png");
+		file:///J:/BHS%20Digital%20Design%20I%20b/Collaborate/zack_albright/######&impact&website/Genshin-Impact-Traveler-2.png"
+    }
+ 
+    /*  General property for heading
+        and paragraph*/
+    .card__inner h2 {
+        margin-bottom: 0px;
+    }
+ 
+    .card__inner p {
+        padding-right: 1rem;
+        font-weight: 2000;
+        line-height: 2.5rem;
+        margin-top: 1.5rem;
+    }
+.pp{
+	opacity:1;
+	width: 40px;
+}
+.card:hover .card__inner .pp{
+	opacity:1;
+	backround-image: file("/###### impact website/Genshin-Impact-Traveler-2.png");
+}
+h3{
+	height: 600px;
+	background-color: #4D5E98;
+	margin-top:0px;
+}
+h2{
+	height: 600px;
+	background-image: url("https://ggspace.nyc3.cdn.digitaloceanspaces.com/uploads/photos/2021/05/gg_610f1c6d15f0913cd143d451bcc95f3b.jpg");
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+h1{
+	height: 600px;
+	background-color:#151A25;
+	margin-top:0px;
+	margin-bottom: 0px;
+	text-align: center;
+	 color: white;
 }
